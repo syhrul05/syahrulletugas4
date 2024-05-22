@@ -1,0 +1,36 @@
+
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #000; /* Mengubah warna latar belakang menjadi hitam */
+  background-image: url('http://jadiberita.com/wp-content/uploads/2016/05/054748900_1427107006-Bangku-bioskop-150323.jpg'); /* Ganti path dengan lokasi gambar latar belakang Anda */
+  background-size: cover; /* Memastikan gambar latar belakang mengisi seluruh area */
+  background-position: center; /* Posisi gambar latar belakang di tengah */
+  font-family: Arial, sans-serif;
+}
+
+.frame {
+  background-color: rgba(255, 255, 255, 0.9); /* Menggunakan transparansi pada latar belakang untuk memberi kesan studio yang terang */
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  width: 90%;
+  max-width: 1000px;
+}
+
+.frame .header {
+  margin-bottom: 20px;
+}
+
+.frame h1 {
+  margin: 0;
+  font-size: 28px;
+  color: #333;
+}
+
+.content {
+  margin-top: 20px;
+}
